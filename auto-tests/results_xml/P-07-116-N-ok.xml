@@ -1,0 +1,18 @@
+<sequence_node size='2'>
+  <function_definition_node name='f' qualifier='private' type='pointer to double'>
+    <arguments>
+      <sequence_node size='1'>
+        <variable_declaration_node qualifier='unknown qualifier' type='pointer to double'>
+          <identifiers>
+            <sequence_node size='1'>
+              <variable_node>p</variable_node>
+            </sequence_node>
+          </identifiers>
+        </variable_declaration_node>
+      </sequence_node>
+    </arguments>
+    <block_node>
+      <declarations>
+      </declarations>
+      <instructions>
+        <sequence_node size='2'>

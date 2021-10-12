@@ -1,0 +1,23 @@
+segment	.text
+align	4
+global	_main:function
+_main:
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	push	dword 3
+segment	.rodata
+align	4
+_L1_cdk_emitter_internal:
+	dq	61.0000
+segment	.text
+	push	dword $_L1_cdk_emitter_internal
+	pop	eax
+	push	dword [eax+4]
+	push	dword [eax]
+segment	.rodata
+align	4
+_L1:
+	db	"string1", 0
+segment	.text
+	push	dword $_L1

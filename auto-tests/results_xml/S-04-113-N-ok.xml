@@ -1,0 +1,29 @@
+<sequence_node size='1'>
+  <function_definition_node name='og' qualifier='public' type='integer'>
+    <arguments>
+    </arguments>
+    <block_node>
+      <declarations>
+        <sequence_node size='1'>
+          <sequence_node size='1'>
+            <variable_declaration_node qualifier='unknown qualifier' type='(unknown or unsupported type)'>
+              <identifiers>
+                <sequence_node size='1'>
+                  <sequence_node size='1'>
+                  </sequence_node>
+                </sequence_node>
+              </identifiers>
+              <initializer>
+              </initializer>
+            </variable_declaration_node>
+          </sequence_node>
+        </sequence_node>
+      </declarations>
+      <instructions>
+        <sequence_node size='10'>
+          <write_node>
+            <sequence_node size='1'>
+              <rvalue_node>
+              </rvalue_node>
+            </sequence_node>
+          </write_node>
